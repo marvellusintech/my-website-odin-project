@@ -38,6 +38,6 @@ const server = http.createServer((req, res) => {
 });
 
 // start the server
-server.listen(5500, () => {
-  console.log("Server is running on http://localhost:5500");
+server.listen(8080, () => {
+  console.log("Server is running on http://localhost:8080");
 });
